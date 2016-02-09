@@ -68,7 +68,7 @@ module Middleman
         fall_through(site_data, 'twitter:card', 'twitter_card', 'summary_large_image')
         fall_through(site_data, 'twitter:creator', 'twitter_author')
         fall_through(site_data, 'twitter:description', 'description')
-        fall_through(site_data, 'twitter:image:src', 'pull_image')
+        fall_through(site_data, 'twitter:image', 'pull_image')
         fall_through(site_data, 'twitter:site', 'publisher_twitter')
         fall_through(site_data, 'twitter:title', 'title')
 
