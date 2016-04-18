@@ -76,6 +76,8 @@ module Middleman
         fall_through(site_data, 'og:description', 'description')
         fall_through(site_data, 'og:image', 'pull_image')
         fall_through(site_data, 'og:title', 'title')
+        fall_through(site_data, 'og:type',  'og_type')
+        fall_through(site_data, 'og:url',   'og_url')
       end
 
     private
